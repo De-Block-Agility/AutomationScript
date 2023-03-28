@@ -70,15 +70,6 @@ namespace EmpowerSkyline_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
-			//var dms = engine.GetDms();
-
-			// var elements = dms.GetElements();
-
-			//foreach (var element in elements)
-			//{
-			//	engine.GenerateInformation("element: " + element.Name);
-			//}
-
 			var order = OrderFactory.CreateOrder("Order 1");
 			order.Dispatch("Bram De Block - Agile bane of Jan Staelens");
 		}
